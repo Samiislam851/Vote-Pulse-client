@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "type": "governmental",
+        "currentStatus": "running", 
+        "title": "Parliamentary Election",
+        "image": "https://ddnews.gov.in/sites/default/files/image_2022-01-27_190602.png"
+    },
+    {
+        "id": 3,
+        "type": "organizational",
+        "currentStatus": "ended", 
+        "title": "Company Board of Directors ",
+        "image": "https://tds-images.thedailystar.net/sites/default/files/feature/images/director.jpg"
+    },
+    {
+        "id": 3,
+        "type": "organizational",
+        "currentStatus": "pending", 
+        "title": "Company Board of Directors ",
+        "image": "https://tds-images.thedailystar.net/sites/default/files/feature/images/director.jpg"
+    }
+]

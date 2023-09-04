@@ -7,6 +7,7 @@ import PopularInstructor from '../../Component/PopularInstructor/PopularInstruct
 import Contact from '../../Component/Contact/Contact';
 
 import Banner from '../../Component/Banner/Banner';
+import UpdatedBanner from '../../Component/UpdatedBanner/UpdatedBanner';
 
 
 
@@ -31,8 +32,8 @@ const HomePage = ({ setTitle }) => {
 
 
     <>
-
-   <Banner></Banner>
+      <UpdatedBanner />
+      <Banner></Banner>
 
       {/* <Contact></Contact> */}
     </>

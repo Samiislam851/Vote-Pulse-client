@@ -65,19 +65,19 @@ const Header = () => {
         theme="light"
       />
       {/* This example requires Tailwind CSS v2.0+ */}
-      <div className={` ${onHomepage ? 'bg-gradient-to-r from-blue-700 via-blue-400 to-blue-700' : dark ? 'bg-gradient-to-r from-blue-700 via-blue-400 to-blue-700' : 'bg-gradient-to-r from-blue-700 via-blue-400 to-blue-700'} `}>
+      <div className={` ${onHomepage ? 'bg-white' : dark ? 'bg-white' : 'bg-white'} md:border-b-2 `}>
         <div className="w-full mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center   border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
-                <h1 className='h-8 w-auto sm:h-10 font-sans text-white text-4xl hover:scale-110 transition-all ease-in-out duration-700 font-semibold flex gap-2 justify-center items-center  '> VotePulse </h1>
+                <h1 className='h-8 w-auto sm:h-10 font-sans text-orange-500 text-4xl hover:scale-110 transition-all ease-in-out duration-700 font-semibold flex gap-2 justify-center items-center  '> <span className='text-gray-900'>Vote</span> Pulse </h1>
 
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
               <button
                 type="button"
-                className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600"
+                className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-gray-600 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600"
                 onClick={() => setOpen(!open)}
               >
                 <span className="sr-only">Open menu</span>
@@ -102,7 +102,7 @@ const Header = () => {
             <nav className={`hidden md:flex p-3 px-5  ${dark ? ' ' : ''} rounded-3xl space-x-10`}>
               <ActiveLink
                 to="/"
-                className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                className="text-base font-medium text-gray-500 hover:text-orange-500 hover:scale-110 transition-all ease-in-out duration-700"
               >
                 Home
               </ActiveLink>
@@ -112,7 +112,7 @@ const Header = () => {
                 <ActiveLink
                   to="/ongoing"
                   // previously classes
-                  className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                  className="text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
                 >
                   Ongoing Elections
                 </ActiveLink>
@@ -123,7 +123,7 @@ const Header = () => {
 
               {(user && !loading && isAdmin) ? <ActiveLink
                 to={'/admin'}
-                className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                className="text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
               >
                 Dashboard
 
@@ -132,7 +132,7 @@ const Header = () => {
 
               <ActiveLink
                 to="/team"
-                className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                className="text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
               >
                 Our Team
               </ActiveLink>
@@ -148,14 +148,14 @@ const Header = () => {
               <>
                 <Link
                   to='/login'
-                  className="whitespace-nowrap text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                  className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
                 >
                   Sign in
                 </Link>
                 <Link
                   to='/register'
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r
-                  from-blue-900 to-blue-900 "
+                  from-orange-500 to-orange-500 "
                 >
                   Sign up
                 </Link>
@@ -163,7 +163,7 @@ const Header = () => {
               :
               <>
                 <img src={userData.photoURL} className='rounded-full h-[50px] border border-1 shadow border-gray-300' title={userData.name} alt="" />
-                <button onClick={logOut} className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-400 bg-opacity-70 hover:bg-red-700'>Sign Out</button>
+                <button onClick={logOut} className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 bg-gray-400 bg-opacity-70 hover:bg-red-700'>Sign Out</button>
               </>}
             </div>
           </div>
@@ -177,7 +177,7 @@ const Header = () => {
               : " hidden"
           }
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-blue-900 divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
@@ -186,7 +186,7 @@ const Header = () => {
                 <div className="-mr-2">
                   <button
                     type="button"
-                    className="bg-blue-900 rounded-md p-2 inline-flex items-center justify-center text-blue-400 hover:text-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     onClick={() => setOpen(!open)}
                   >
                     <span className="sr-only">Close menu</span>
@@ -215,14 +215,14 @@ const Header = () => {
 
                   <ActiveLink
                     to="/"
-                    className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                    className="text-base font-medium text-gray-500 hover:text-orange-500 hover:scale-110 transition-all ease-in-out duration-700"
                   >
                     Home
                   </ActiveLink>
 
                   <ActiveLink
                     to="/team"
-                    className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                    className="text-base font-medium text-gray-500 hover:text-orange-500 hover:scale-110 transition-all ease-in-out duration-700"
                   >
                     Our Team
                   </ActiveLink>
@@ -232,7 +232,7 @@ const Header = () => {
 
                   {/* {user ? <ActiveLink
                    to={!loading && (isAdmin ? '/admin' : (isInstructor ? '/instructor' : '/student'))}
-                    className="text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                    className="text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
                   >
                    Dashboard
                   </ActiveLink> : <></>} */}
@@ -242,7 +242,7 @@ const Header = () => {
                     <ActiveLink
                       to="/ongoing"
                       // previously classes
-                      className="text-base font-medium text-white"
+                      className="text-base font-medium text-gray-500"
                     >
                       Ongoing Elections
                     </ActiveLink>
@@ -254,13 +254,13 @@ const Header = () => {
                     <>
                       <Link
                         to='/login'
-                        className="whitespace-nowrap text-base font-medium text-white hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                        className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
                       >
                         Sign in
                       </Link>
                       <Link
                         to='/register'
-                        className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500"
+                        className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-orange-500 via-orange-500 to-orange-500"
                       >
                         Sign up
                       </Link>
@@ -268,7 +268,7 @@ const Header = () => {
                     :
                     <>
                       <img src={userData.photoURL} className='rounded-full mx-auto mb-2 h-[50px] border border-1 shadow border-gray-300' title={user?.displayName} alt="" />
-                      <button onClick={logOut} className='ml-8 -ms-1 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white me-8 bg-opacity-70 bg-red-600'>Sign Out</button>
+                      <button onClick={logOut} className='ml-8 -ms-1 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 me-8 bg-opacity-70 bg-red-600'>Sign Out</button>
                     </>}
                   </div>
 

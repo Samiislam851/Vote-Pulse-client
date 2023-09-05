@@ -133,17 +133,6 @@ const AddElection = ({ setTitle }) => {
 
               </>)
             }
-
-
-
-
-
-
-
-
-
-
-
             <div className='flex justify-center mt-4'>
               <button className="btn btn-primary gap-2" disabled={progresssending}>
                 {progresssending && <div class="w-4 h-4 rounded-full animate-spin

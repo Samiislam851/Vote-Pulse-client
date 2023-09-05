@@ -8,6 +8,7 @@ import Contact from '../../Component/Contact/Contact';
 
 import Banner from '../../Component/Banner/Banner';
 import UpdatedBanner from '../../Component/UpdatedBanner/UpdatedBanner';
+import Usage from '../../Component/Usage/Usage';
 
 
 
@@ -33,6 +34,7 @@ const HomePage = ({ setTitle }) => {
 
     <>
       <UpdatedBanner />
+      <Usage/>
       <Banner></Banner>
 
       {/* <Contact></Contact> */}

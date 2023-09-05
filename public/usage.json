@@ -1,0 +1,70 @@
+[
+    {
+       "id": 1,
+       "name": "Independent Professional Groups"
+    },
+    {
+       "id": 2,
+       "name": "Industry Associations"
+    },
+    {
+       "id": 3,
+       "name": "Non-Public Organizations (NGOs)"
+    },
+    {
+       "id": 4,
+       "name": "Private Clubs and Societies"
+    },
+    {
+       "id": 5,
+       "name": "Charitable Entities"
+    },
+    {
+       "id": 6,
+       "name": "Residential Associations"
+    },
+    {
+       "id": 7,
+       "name": "Social and Golf Clubs"
+    },
+    {
+       "id": 8,
+       "name": "Higher Education Institutions"
+    },
+    {
+       "id": 9,
+       "name": "School Systems"
+    },
+    {
+       "id": 10,
+       "name": "Labor Organizations"
+    },
+    {
+       "id": 11,
+       "name": "Political Parties"
+    },
+    {
+       "id": 12,
+       "name": "Decision-Making Bodies"
+    },
+    {
+       "id": 13,
+       "name": "Various Associations"
+    },
+    {
+       "id": 14,
+       "name": "Religious Groups"
+    },
+    {
+       "id": 15,
+       "name": "Cooperatives and Credit Unions"
+    },
+    {
+       "id": 16,
+       "name": "Legal and Financial Firms"
+    },
+    {
+       "id": 17,
+       "name": "Service Providers"
+    }
+ ]

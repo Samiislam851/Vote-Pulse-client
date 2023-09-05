@@ -3,7 +3,7 @@ import Anime from 'react-anime';
 
 function MovingComponent({ className }) {
     const animationProps = {
-        translateY: [0,10, 0],
+        translateY: [0,-10, 0],
     translateX: [0, 0],
     duration: 5000, // Increase the animation duration to 1 second
     loop: true,
@@ -20,6 +20,7 @@ function MovingComponent({ className }) {
                 >
                     <div className='border-e-4 pe-8 border-gray-600 ' > 
                         <div className='text-4xl font-semibold  text-gray-800'>35,657,000</div>
+                        
                         <div className='text-xl text-gray-600'>Votes Casted</div>
                     </div>
                     <div>

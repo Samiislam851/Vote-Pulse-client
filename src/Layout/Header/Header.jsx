@@ -148,14 +148,14 @@ const Header = () => {
               <>
                 <Link
                   to='/login'
-                  className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-yellow-100 hover:scale-110 transition-all ease-in-out duration-700"
+                  className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-orange-500 hover:scale-110 transition-all ease-in-out duration-700"
                 >
                   Sign in
                 </Link>
                 <Link
                   to='/register'
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r
-                  from-orange-500 to-orange-500 "
+                  from-orange-500 to-orange-600 "
                 >
                   Sign up
                 </Link>

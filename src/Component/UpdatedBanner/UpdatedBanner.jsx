@@ -6,10 +6,10 @@ import MovingComponent from '../MovingComponent/MovingComponent';
 
 const UpdatedBanner = () => {
     return (
-        <div className='flex flex-col-reverse md:flex-row justify-center md:items-center max-w-[1600px] mx-auto  py-20'>
+        <div className='flex flex-col-reverse md:flex-row justify-center md:items-center max-w-[1600px] mx-auto px-12  py-20'>
             <div className='basis-[50%] m-5'>
                 <div className='text-[#FF9021] mx-7 md:mx-1 md:text-4xl text-2xl text-center md:text-start font-semibold'>Trusted by
-                    <CountUp className='ms-2 md:text-5xl underline' suffix="+" end={1425} duration={2.5} />
+                    <CountUp className='ms-2 md:text-5xl ' suffix="+" end={1425} duration={3} />
 
                     Organizations
                 </div>

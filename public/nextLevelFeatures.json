@@ -1,0 +1,32 @@
+[
+    {
+       "id":"boost_engagement",
+       "name":"Boost Engagement",
+       "description":"Notify voters using email, mail, text message, or with your own systems. Receive undeliverable notice alerts and send reminders. Voters vote by phone, computer, mail, or in person."
+    },
+    {
+       "id":"high_integrity_voting",
+       "name":"High-integrity Voting",
+       "description":"Voters can only vote once and voting choices remain anonymous. Each ballot has one, secure voting key, and the vote is auditable, verifiable, and can be independently observed."
+    },
+    {
+       "id":"flexible_ballots",
+       "name":"Flexible Ballots",
+       "description":"Vote on executive officers, board positions, contract ratifications, bylaw amendments, budget approvals, acclamations, and motions. Or run polls and surveys."
+    },
+    {
+       "id":"automated_and_simple",
+       "name":"Automated and Simple",
+       "description":"Setup your Election or Meeting Votes in 3 steps - spend your time monitoring, not counting. Or engage our experts for dedicated assistance or independent election oversight."
+    },
+    {
+       "id":"real_time_results",
+       "name":"Real-time Results",
+       "description":"Winners are immediately calculated using first past the post, cumulative voting, preferential ballot, STV Single transferable vote, or approval voting. You can tabulate results yourself too!"
+    },
+    {
+       "id":"secure_and_private",
+       "name":"Secure and Private",
+       "description":"256-bit encryption used to safeguard your vote — the same security as major banks. And we don’t share or use voter data — your elections stay private."
+    }
+ ]

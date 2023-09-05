@@ -9,6 +9,7 @@ import Contact from '../../Component/Contact/Contact';
 import Banner from '../../Component/Banner/Banner';
 import UpdatedBanner from '../../Component/UpdatedBanner/UpdatedBanner';
 import Usage from '../../Component/Usage/Usage';
+import NextLevelCompo from '../../Component/NextLevelCompo/NextLevelCompo';
 
 
 
@@ -36,7 +37,7 @@ const HomePage = ({ setTitle }) => {
       <UpdatedBanner />
       <Usage/>
       <Banner></Banner>
-
+      <NextLevelCompo/>
       {/* <Contact></Contact> */}
     </>
 

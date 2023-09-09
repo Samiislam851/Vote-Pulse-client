@@ -10,6 +10,7 @@ import Banner from '../../Component/Banner/Banner';
 import UpdatedBanner from '../../Component/UpdatedBanner/UpdatedBanner';
 import Usage from '../../Component/Usage/Usage';
 import NextLevelCompo from '../../Component/NextLevelCompo/NextLevelCompo';
+import ScreenShots from '../../Component/ScreenShots/ScreenShots';
 
 
 
@@ -38,6 +39,7 @@ const HomePage = ({ setTitle }) => {
       <Usage/>
       <Banner></Banner>
       <NextLevelCompo/>
+      <ScreenShots/>
       {/* <Contact></Contact> */}
     </>
 

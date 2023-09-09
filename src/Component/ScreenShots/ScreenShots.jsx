@@ -38,14 +38,14 @@ const ScreenShots = () => {
         to: { opacity: 1, transform: 'translateY(0px)' },
         config: { tension: 200, friction: 80 },
         delay: 100,
-        reverse: scrollY < 3300, // Change this value to trigger the animation at a different scroll position
+        reverse: scrollY < 3000, // Change this value to trigger the animation at a different scroll position
     });
     const springProps4 = useSpring({
         from: { opacity: 0, transform: 'translateX(-1100px)' },
         to: { opacity: 1, transform: 'translateX(0px)' },
         config: { tension: 200, friction: 80 },
         delay: 100,
-        reverse: scrollY < 3300, // Change this value to trigger the animation at a different scroll position
+        reverse: scrollY < 3000, // Change this value to trigger the animation at a different scroll position
     });
 
     return (

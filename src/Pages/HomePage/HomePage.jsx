@@ -11,6 +11,8 @@ import UpdatedBanner from '../../Component/UpdatedBanner/UpdatedBanner';
 import Usage from '../../Component/Usage/Usage';
 import NextLevelCompo from '../../Component/NextLevelCompo/NextLevelCompo';
 import ScreenShots from '../../Component/ScreenShots/ScreenShots';
+import FaqAccordion from '../../Component/FaqAccordion/FaqAccordion';
+import TheProcess from '../../Component/TheProcess/TheProcess';
 
 
 
@@ -40,6 +42,8 @@ const HomePage = ({ setTitle }) => {
       <Banner></Banner>
       <NextLevelCompo/>
       <ScreenShots/>
+      <TheProcess/>
+      <FaqAccordion/>
       {/* <Contact></Contact> */}
     </>
 

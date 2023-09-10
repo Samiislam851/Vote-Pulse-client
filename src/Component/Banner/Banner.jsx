@@ -12,7 +12,7 @@ const Banner = () => {
 
                 <div className='grid grid-cols-1 gap-10 md:grid-cols-3 px-10 mt-10'>
                     <div>
-                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center border-t-green-700 border-t-[4px]'>
+                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center md:hover:scale-105 transition-all duration-300 border-t-green-700 border-t-[4px]'>
                             <h2 className='text-4xl font-semibold text-gray-600 py-4 text-center'>Set Up Voting Yourself</h2>
                             <p className='text-lg text-gray-400 py-5'>With very friendly and guided user interface you can easily create an election But for this you have to signed in as an Admin</p>
                             <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300 '>See how to create Election
@@ -23,18 +23,18 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center border-t-orange-400 border-t-[4px]'>
+                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center hover:scale-105 transition-all duration-300 border-t-orange-400 border-t-[4px]'>
                             <h2 className='text-4xl font-semibold text-gray-600 py-4 text-center '>Manage your Election</h2>
                             <p className='text-lg text-gray-400 py-5'>You can take instructions <br />or suggestions from our voting experts. Who can guide you through the whole process</p>
-                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>See how to create Election   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
+                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>See how to manage Election   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
                             <div className='w-full'><img className='image-full mx-auto pt-10' src="/bannermini3.png" alt="" /></div>
                         </div>
                     </div>
                     <div>
-                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center border-t-blue-400 border-t-[4px]'>
+                        <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center hover:scale-105 transition-all duration-300 border-t-blue-400 border-t-[4px]'>
                             <h2 className='text-4xl font-semibold text-gray-600 py-4 text-center'>Manage users as Admin</h2>
                             <p className='text-lg text-gray-400 py-5'>With very friendly and guided user interface you can easily manage users of your voting. you can make a candidate from a regular user or vice versa</p>
-                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>See how to create Election   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
+                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>See how to manage users   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
                             <div className='w-full'><img className='image-full mx-auto pt-10' src="/bannermini1.png" alt="" /></div>
                         </div>
                     </div>

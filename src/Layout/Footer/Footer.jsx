@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 h-fit md:ps-28 r lg:grid-cols-4 gap-4  justify-center">
             {/* Column 1 */}
             <div className="mb-4">
-              <h1 className='h-8 my-font w-auto sm:h-10 font-sans text-orange-500 text-3xl transition-all ease-in-out duration-700 font-semibold flex gap-2 text-start  '> <span className='text-gray-600'>Vote</span> Pulse </h1>
+              <h1 className='h-8 my-font w-auto sm:h-10 font-sans text-orange-500 text-3xl transition-all ease-in-out duration-700 font-semibold flex mb-3 gap-2 text-start  '> <span className='text-gray-600'>Vote</span> Pulse </h1>
               <ul className='text-base text-gray-400 ps-1  flex flex-col gap-2 font-normal '>
                 <Link to='#'>Elections</Link>
                 <Link to='#'>Meeting Votes</Link>

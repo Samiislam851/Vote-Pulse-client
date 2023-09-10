@@ -45,7 +45,7 @@ const Usage = () => {
         <div className='max-w-[1600px] mx-auto md:px-12 px-5'>
 
             <animated.div style={springProps} className="animated-element">
-                <div className='md:text-5xl text-4xl font-semibold text-gray-600 text-center md:my-10 mb-5'>Where Can You Use VotePulse?</div>
+                <div className='md:text-6xl text-4xl font-semibold text-gray-600 text-center md:my-10 mb-5 my-font'>Where Can You Use VotePulse?</div>
             </animated.div>
 
             <animated.div style={springProps2} className="animated-element"> 

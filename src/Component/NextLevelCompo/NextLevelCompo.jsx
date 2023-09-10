@@ -11,9 +11,9 @@ const NextLevelCompo = () => {
     }, []);
     console.log(data);
     return (
-        <div className='max-w-[1600px] mx-auto px-10 md:px-16 mb-20'>
+        <div className='max-w-[1600px] mx-auto pt-20 px-10 md:px-16 mb-20'>
             <div className=''>
-                <h1 className='md:text-5xl text-4xl font-semibold text-gray-700 text-center'>Take Your Votes To The Next Level</h1>
+                <h1 className='md:text-6xl text-4xl mb-14 font-semibold text-gray-600 text-center my-font'>Take Your Votes To The Next Level</h1>
                 <div className='grid py-20  gap-10 grid-cols-1 md:grid-cols-3'>
                     {data.map(data => <NextLevelCompoCard data={data}></NextLevelCompoCard>)}
                 </div>

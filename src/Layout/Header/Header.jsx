@@ -70,7 +70,7 @@ const Header = () => {
           <div className="flex justify-between items-center   border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
-                <h1 className='h-8 w-auto sm:h-10 font-sans text-orange-500 text-4xl hover:scale-110 transition-all ease-in-out duration-700 font-semibold flex gap-2 justify-center items-center  '> <span className='text-gray-900'>Vote</span> Pulse </h1>
+                <h1 className='h-8 my-font w-auto sm:h-10 font-sans text-orange-500 text-5xl hover:scale-110 transition-all ease-in-out duration-700 font-semibold flex gap-2 justify-center items-center  '> <span className='text-gray-600'>Vote</span> Pulse </h1>
 
               </a>
             </div>
@@ -163,7 +163,7 @@ const Header = () => {
               :
               <>
                 <img src={userData.photoURL} className='rounded-full h-[50px] border border-1 shadow border-gray-300' title={userData.name} alt="" />
-                <button onClick={logOut} className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 bg-gray-400 bg-opacity-70 hover:bg-red-700'>Sign Out</button>
+                <button onClick={logOut} className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-100 bg-gray-400 bg-opacity-70 hover:text-white transition-all duration-300 hover:bg-red-500'>Sign Out</button>
               </>}
             </div>
           </div>

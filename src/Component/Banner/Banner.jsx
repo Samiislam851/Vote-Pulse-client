@@ -6,11 +6,11 @@ const Banner = () => {
         <div className='py-24 my-20 bg-[#ECEEEF] '>
             <div className='max-w-[1600px] md:px-12 mx-auto'>
                 <div className=''>
-                    <h2 className='text-5xl text-gray-700 font-semibold md:font-bold text-center'>Voting done right with the right help you need</h2>
+                    <h2 className='my-font text-5xl text-gray-700 font-semibold md:font-bold text-center'>Voting done right with the right help you need</h2>
                     <p className='text-gray-500 text-base md:text-xl  mx:auto mt-7 mb-14 w-[90%] duration-500 transition-all ease-in-out text-center  mx-auto'>Your trusted source for a seamless voting experience. Access comprehensive resources, simplified procedures, and reliable support, empowering you to make informed decisions and actively participate in the democratic process.</p>
                 </div>
 
-                <div className='grid grid-cols-1 gap-10 md:grid-cols-3 mt-10'>
+                <div className='grid grid-cols-1 gap-10 md:grid-cols-3 px-10 mt-10'>
                     <div>
                         <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center border-t-green-700 border-t-[4px]'>
                             <h2 className='text-4xl font-semibold text-gray-600 py-4 text-center'>Set Up Voting Yourself</h2>

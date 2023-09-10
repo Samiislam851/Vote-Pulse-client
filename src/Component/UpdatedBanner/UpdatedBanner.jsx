@@ -13,7 +13,7 @@ const UpdatedBanner = () => {
 
                    
                 </div>
-                <div className='md:text-6xl text-4xl mx-5 md:mx-1 text-gray-800 text-center md:text-start font-bold my-5'>
+                <div className='my-font md:text-7xl text-4xl mx-5 md:mx-1 text-gray-700 text-center md:text-start font-bold my-5'>
                     Easy Online Election Excellence
                 </div>
                 <p className='text-gray-400 md:text-xl text-lg text-center md:text-start px-5 md:px-1  md:pe-32'>Votepulse guarantees election integrity and saves serious hours. It allows you or your voters to vote online with full security</p>

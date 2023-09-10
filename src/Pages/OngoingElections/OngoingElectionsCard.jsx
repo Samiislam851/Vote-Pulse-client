@@ -26,7 +26,7 @@ const ClassCard = ({election}) => {
           <button onClick={() => selectClassHandler(data._id)} className='btn cursor-pointer w-full  relative flex items-center justify-center rounded-md border border-transparent bg-gray-100  text-sm font-medium text-gray-900 hover:bg-gray-200' disabled={disablebtn}>Select</button>
         </div>
       </div>       */}
-            <div className="max-w-[full] rounded border shadow-lg my-20">
+            <div className="max-w-[full] rounded border shadow-lg my-20 pb-6">
                 <img className="w-full h-[50%] rounded" src={image} alt={title} />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{title}</div>
@@ -44,7 +44,7 @@ const ClassCard = ({election}) => {
                     </p> */}
                 </div>
                 <div className="px-6 py-4">
-                    <Link to={`/vote/${_id}`} className='px-5 py-3 rounded hover:bg-blue-700 bg-blue-600 text-white'>View Details</Link>
+                    <Link to={`/vote/${_id}`} className='px-5 py-3 rounded hover:bg-orange-700 bg-orange-500 text-xl  text-white'>View Details</Link>
                 </div>
             </div>
 

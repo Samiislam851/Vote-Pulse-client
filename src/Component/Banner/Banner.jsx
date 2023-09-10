@@ -26,7 +26,7 @@ const Banner = () => {
                         <div className='w-80% bg-white pt-10 px-5 rounded-b-lg text-center hover:scale-105 transition-all duration-300 border-t-orange-400 border-t-[4px]'>
                             <h2 className='text-4xl font-semibold text-gray-600 py-4 text-center '>Manage your Election</h2>
                             <p className='text-lg text-gray-400 py-5'>You can take instructions <br />or suggestions from our voting experts. Who can guide you through the whole process</p>
-                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>See how to manage Election   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
+                            <button className='text-orange-400 text-xl border border-orange-400 border-[3px] px-5 py-3 rounded-lg hover:bg-orange-400 hover:scale-105 hover:text-white transition-all duration-300'>How to manage election   <BsFillArrowRightCircleFill className='inline mx-2' /></button>
                             <div className='w-full'><img className='image-full mx-auto pt-10' src="/bannermini3.png" alt="" /></div>
                         </div>
                     </div>

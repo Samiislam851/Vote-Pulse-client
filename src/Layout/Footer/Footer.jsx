@@ -1,84 +1,88 @@
 import React from 'react';
-import {FiMusic } from 'react-icons/fi'
+import { FiMusic } from 'react-icons/fi'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
 
-<footer className="bg-white h-fit py-20 border-t-4">
-<div className="  h-fit mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col h-fit  mx-auto flex-wrap justify-center">
-          <div className="w-full sm:w-auto h-fit mb-4 sm:mb-0">
-            <p className="text-center text-gray-500">&copy; {new Date().getFullYear()} Vote Pulse. All rights reserved. </p>
-          </div>
-          <div className="w-full h-fit sm:w-auto">
-            <ul className="flex flex-col gap-5 md:flex-row my-6 items-center md:items-center md:justify-center space-x-4">
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="w-full mt-4">
-            {/* <ul className="flex justify-center space-x-4">
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  <FaFacebook />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 hover:text-white">
-                  <FaInstagram />
-                </a>
-              </li>
-            </ul> */}
-          </div>
-          {/* <div className="w-full mt-4">
-            <form className="flex justify-center">
-              <input type="email" placeholder="Enter your email" className="bg-white border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500" />
-              <button type="submit" className="bg-orange-500 text-white rounded px-4 py-2 ml-2 hover:bg-orange-600 focus:outline-none focus:bg-orange-600">
-                Subscribe
-              </button>
-            </form>
-          </div> */}
-          <div className="w-full mt-4">
-            <p className="text-center text-gray-500">Language: English</p>
+      <footer className="bg-transparent text-gray-600 mx-auto p-8">
+        <div className=" mx-auto py-20 border-b-[3px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 h-fit md:ps-28 r lg:grid-cols-4 gap-4  justify-center">
+            {/* Column 1 */}
+            <div className="mb-4">
+              <h1 className='h-8 my-font w-auto sm:h-10 font-sans text-orange-500 text-3xl transition-all ease-in-out duration-700 font-semibold flex gap-2 text-start  '> <span className='text-gray-600'>Vote</span> Pulse </h1>
+              <ul className='text-base text-gray-400 ps-1  flex flex-col gap-2 font-normal '>
+                <Link to='#'>Elections</Link>
+                <Link to='#'>Meeting Votes</Link>
+                <Link to='#'>Features</Link>
+                <Link to='#'>Ballot Samples</Link>
+                <Link to='#'>Reviews</Link>
+                <Link to='#'>Services</Link>
+                <Link to='#'>Partner Programs</Link>
+                <Link to='#'>Pricing</Link>
+              </ul>
+            </div>
+
+            {/* Column 2 */}
+            <div className="mb-4">
+              <h2 className="text-2xl font-semibold text-gray-600 mb-2">Resources</h2>
+              <ul className='text-base text-gray-400 ps-  flex flex-col gap-2 font-normal '>
+                <Link to='#'>How to Vote / Voting Help</Link>
+                <Link to='#'>Tips Sheets and Guides</Link>
+                <Link to='#'>Voting Systems Explained</Link>
+                <Link to='#'>Announcements and Election Notice</Link>
+                <Link to='#'>Election Audits and Observability</Link>
+                <Link to='#'>How to Run Online Elections</Link>
+                <Link to='#'>Combining Board Nominations with Elections</Link>
+              </ul>
+            </div>
+
+            {/* Column 3 */}
+            <div className="mb-4">
+              <h2 className="text-2xl font-semibold text-gray-600 mb-2">Industries</h2>
+              <ul className='text-base text-gray-400 ps-  flex flex-col gap-2 font-normal '>
+                <Link to='#'>Professional Associations</Link>
+                <Link to='#'>Industry Associations</Link>
+                <Link to='#'>Homeowners Associations</Link>
+                <Link to='#'>Other Associations or Non-Profits (NGOs Societies or Clubs)</Link>
+                <Link to='#'>Golf Clubs, Country Clubs and Sport Facilities</Link>
+                <Link to='#'>Service Providers</Link>
+                <Link to='#'>Other Organizations</Link>
+              </ul>
+            </div>
+
+            {/* Column 4 */}
+            <div className="mb-4">
+              <h2 className="text-2xl font-semibold text-gray-600 mb-2">Company</h2>
+              <ul className='text-base text-gray-400 ps-  flex flex-col gap-2 font-normal '>
+                <Link to='#'>Contact Us</Link>
+                <Link to='#'>About Us</Link>
+                <Link to='#'>Support</Link>
+                <Link to='#'>Careers</Link>
+                <Link to='#'>Blog</Link>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-</footer>
-
+        <div className='max-w-[1600px] md:px-12 mx-auto flex flex-col-reverse gap-10 md:flex-row py-12 '>
+          <div className='basis-[33%] text-lg text-gray-600 text-center'>© 2023 VotePulse, Inc. All Rights Reserved</div>
+          <ul className='flex md:flex-row flex-col basis-[33%] justify-center items-center gap-10 text-gray-400'>
+            <Link to='#'><a href="#">Terms of Service</a></Link>
+            <Link to='#'><a href="#">Privacy Policy</a></Link>
+            <Link to='#'><a href="#">Security</a></Link>
+            <Link to='#'><a href="#">Sitemap</a></Link>
+          </ul>
+          <ul className='basis-[33%] flex justify-center gap-10 '>
+             <Link to='#'><FaFacebook className='inline scale-150'/></Link>
+             <Link to='#'><FaTwitter className='inline scale-150'/></Link>
+             <Link to='#'><FaInstagram  className='inline scale-150'/></Link>
+          </ul>
+        </div>
+        <div>
+     
+        </div>
+      </footer>
     </>
   );
 }

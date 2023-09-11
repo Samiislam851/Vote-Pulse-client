@@ -134,7 +134,7 @@ const RegisterPage = ({ setTitle }) => {
         <div className="flex flex-col gap-5">
           <div className="flex gap-5 text-2xl font-semibold items-center">
             <Link to="/login" className="py-2 text-gray-500">Login </Link>
-            <Link to="/register" className="py-2  border-b-4 border-[#4406CB]  ">Register Now</Link>
+            <Link to="/register" className="py-2  border-b-4 border-[#cb6206]  ">Register Now</Link>
           </div>
 
 
@@ -198,9 +198,9 @@ const RegisterPage = ({ setTitle }) => {
               className="p-2 rounded-lg text-black border" required
             />
             <p className='text-red-700'>{message}</p>
-            {/* <button type="submit" className="bg-gradient-to-r from-blue-700 text-white font-semibold py-3 rounded-2xl via-blue-500 to-blue-700 hover:scale-110 hover:bg-blue-800 hover:rounded-lg transition-all ease-in-out duration-700">Register</button> */}
+            {/* <button type="submit" className="bg-gradient-to-r from-orange-500 text-white font-semibold py-3 rounded-2xl via-orange-500 to-orange-500 hover:scale-110 hover:bg-orange-500 hover:rounded-lg transition-all ease-in-out duration-700">Register</button> */}
             <div className='flex justify-center mt-4'>
-      <button className="bg-gradient-to-r from-blue-700 text-white font-semibold py-3 px-32 rounded-2xl via-blue-600 to-blue-700 hover:scale-110 hover:rounded-lg transition-all ease-in-out duration-700" disabled={progresssending}>
+      <button className="bg-gradient-to-r from-orange-500 text-white font-semibold py-3 px-32 rounded-2xl via-orange-500 to-orange-500 hover:scale-110 hover:rounded-lg transition-all ease-in-out duration-700" disabled={progresssending}>
         {progresssending && <div class="w-4 h-4 rounded-full animate-spin
                     border-2 border-solid border-white border-t-transparent"></div> }
       
@@ -208,7 +208,7 @@ const RegisterPage = ({ setTitle }) => {
         </button>
        </div>
             {/* <a href="#">Forgot Password?</a> */}
-            <a href="#">Already have an account ? <Link to="/login" className='text-blue-800'>Login</Link> </a>
+            <a href="#">Already have an account ? <Link to="/login" className='text-orange-500'>Login</Link> </a>
           </form>
           <div className="grid grid-cols-2 gap-4 text-black text-[10px] md:text-sm">
             {/* <LoginWithFacebook/>

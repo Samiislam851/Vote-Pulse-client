@@ -103,7 +103,7 @@ const ManageElection = ({ setTitle }) => {
     }
     return (
         <>
-            <h1 className='text-center text-5xl text-gray-600'>Manage Elections</h1>
+            <h1 className='text-center text-5xl text-gray-600 my-font'>Manage Elections</h1>
 
 
 

@@ -99,12 +99,12 @@ const Contact = () => {
 
   const { dark } = useContext(AuthContext)
   return (
-    <div className='max-w-[1600px] mx-auto md:px-12'>
+    <div className='max-w-[1600px] mx-auto md:px-12 mb-40'>
       <animated.div style={springProps}>
         <h1 className='text-center md:text-7xl text-4xl text-gray-700 my-font font-semibold pb-5'>Contact</h1>
       </animated.div>
       <animated.div style={springProps2}>
-        <p className='text-center text-2xl text-gray-500 font-light pb-20'>We’re available anytime for your need</p>
+        <p className='text-center text-2xl text-gray-500 font-light pb-20 mx-5'>We’re available anytime for your need</p>
       </animated.div>
       <animated.div style={springProps3}>
         <div className='grid grid-cols-1 md:grid-cols-3 md:justify-center md:items-center pb-20'>
@@ -134,7 +134,7 @@ const Contact = () => {
       </animated.div>
       <animated.div style={springProps4}>
         <div className='border-t-[3px] mt-20 pt-10 pb-20 mx-5'>
-          <h1 className={`text-gray-600 md:text-6xl text-4xl my-font md:text-center pt-20 `}>Want to Discuss?</h1>
+          <h1 className={`text-gray-600 md:text-6xl text-4xl my-font md:text-center pt-20 text-center`}>Want to Discuss?</h1>
 
           <animated.div style={springProps5}>
             <p className='text-center text-gray-400 text-lg md:w-[80%] w-[100%] mx-auto pt-10'>Whether you need assistance with placing an election, have a suggestion to improve our services, or want to explore collaboration opportunities, our dedicated team is ready to help. Feel free to reach out to us and our friendly staff will respond to your message via email. We value your input and look forward to hearing from you!.</p>

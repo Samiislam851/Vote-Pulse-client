@@ -108,7 +108,7 @@ const Header = () => {
               </ActiveLink>
 
 
-              {user &&
+              {/* {user && */}
                 <ActiveLink
                   to="/ongoing"
                   // previously classes
@@ -117,7 +117,7 @@ const Header = () => {
                   Ongoing Elections
                 </ActiveLink>
 
-              }
+              {/* } */}
 
 
 

@@ -75,7 +75,32 @@ const OngoingElections = ({ setTitle }) => {
     }, []);
    
 if(!user){
-    return <ErrorPage></ErrorPage>
+    return   <>
+
+    <div class="bg-transparent">
+        <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 min-">
+            <h2 class="text-6xl font-sans font-semibold text-gray-600 my-font text-center">Ongoing Elections</h2>
+            <div class="mt-8 ">
+                {loading ? <>
+                    <Spinner />
+                </> : <>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+                                {elections && elections.map(election => <OngoingElectionsCard election={election}></OngoingElectionsCard>)}
+                            </div>
+                </>}
+
+
+
+              
+
+            </div>
+        </div>
+     
+    </div>
+
+
+
+</>
 }
 else{
     return (
@@ -84,7 +109,7 @@ else{
 
             <div class="bg-transparent">
                 <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 min-">
-                    <h2 class="text-6xl font-sans font-semibold text-gray-700">Ongoing Elections</h2>
+                    <h2 class="text-6xl font-sans font-semibold text-gray-600 my-font text-center">Ongoing Elections</h2>
                     <div class="mt-8 ">
                         {loading ? <>
                             <Spinner />

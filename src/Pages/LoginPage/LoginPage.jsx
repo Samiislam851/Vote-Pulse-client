@@ -46,7 +46,7 @@ const LoginPage = ({setTitle}) => {
       <section className=" md:w-full  min-h-[100vh]  flex justify-center  px-4 md:px-0 mt-12">
   <div className="flex flex-col gap-5">
     <div className="flex gap-5 text-2xl font-semibold items-center">
-      <Link to="/login" className="border-b-4 border-[#4406CB] py-2">Login</Link>
+      <Link to="/login" className="border-b-4 border-[#cb6f06] py-2">Login</Link>
       <Link  to="/register" className="py-2 text-gray-500">Register Now</Link>
     </div>
     <form onSubmit={handleSubmit} className="flex flex-col gap-5  ">
@@ -67,9 +67,9 @@ const LoginPage = ({setTitle}) => {
         className="p-2 rounded-lg text-black border"
       />
       <p className='text-red-600'> {message}</p>
-      <button className="bg-gradient-to-r from-blue-700 text-white font-semibold py-3 rounded-2xl via-blue-500 to-blue-700 hover:scale-110 hover:rounded-lg transition-all ease-in-out duration-700">Login</button>
+      <button className="bg-gradient-to-r from-orange-500 text-white font-semibold py-3 rounded-2xl via-orange-500 to-orange-500 hover:scale-110 hover:rounded-lg transition-all ease-in-out duration-700">Login</button>
       {/* <a href="#">Forgot Password?</a> */}
-      <a href="#">If you've no account <Link to="/register" className='text-blue-800'>Create One</Link> </a>
+      <a href="#">If you've no account <Link to="/register" className='text-orange-500'>Create One</Link> </a>
     </form>
     <div className="grid grid-cols-2 gap-4 text-black text-[10px] md:text-sm">
    {/* <LoginWithFacebook/>

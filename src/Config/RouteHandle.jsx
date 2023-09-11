@@ -74,7 +74,7 @@ const RouteHandle = () => {
 
         {
           path: "/ongoing",
-          element: <PrivateRoute>  <OngoingElections setTitle={setTitle} /> </PrivateRoute>,
+          element:  <OngoingElections setTitle={setTitle} />,
         },
         {
           path: "/vote/:electionid",

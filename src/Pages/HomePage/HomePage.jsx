@@ -44,7 +44,8 @@ const HomePage = ({ setTitle }) => {
       <ScreenShots/>
       <TheProcess/>
       <FaqAccordion/>
-      {/* <Contact></Contact> */}
+     
+     <Contact></Contact> 
     </>
 
 

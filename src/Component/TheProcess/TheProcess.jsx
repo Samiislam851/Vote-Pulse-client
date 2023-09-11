@@ -83,6 +83,8 @@ const TheProcess = () => {
         reverse: scrollY < 4500, // Change this value to trigger the animation at a different scroll position
     });
 
+
+    
     return (
         <animated.div style={springProps} className="animated-element">
         <div className='bg-gray-100 pb-32 mt-20'>
